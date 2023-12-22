@@ -1,0 +1,44 @@
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(./design.jpg);
+    height: 100vh;
+    background-size: cover;
+    -webkit-background-size :cover;
+    background-position:center center;
+}
+
+.banner-text{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.banner-text p{
+    color:#fff;
+}
+
+.banner-btn a{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
+    display: inline-block;
+    color:#fff;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.banner-btn a.active{
+    background-color: #fed136;
+    border-color: #fed136;
+    color:#000;
+
+}
+
